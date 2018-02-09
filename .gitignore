@@ -4,3 +4,6 @@
 
 /.vs
 /Helix.sln/.vs/Helix/v15
+/packages
+/src/Project/Website/code/obj/Debug
+*.user

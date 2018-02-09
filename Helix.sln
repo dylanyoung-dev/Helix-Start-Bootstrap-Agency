@@ -11,8 +11,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{CCE7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{FC59B197-F0B7-4C2B-80F7-A7EBACAD50D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{578E8488-9D04-4C0F-813D-B01EF46749EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Website", "src\Project\Website\code\Helix.Project.Website.csproj", "{CA093606-62E7-4BAC-A345-E5F8026A1D9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA093606-62E7-4BAC-A345-E5F8026A1D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA093606-62E7-4BAC-A345-E5F8026A1D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA093606-62E7-4BAC-A345-E5F8026A1D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA093606-62E7-4BAC-A345-E5F8026A1D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{578E8488-9D04-4C0F-813D-B01EF46749EA} = {FC59B197-F0B7-4C2B-80F7-A7EBACAD50D8}
+		{CA093606-62E7-4BAC-A345-E5F8026A1D9B} = {578E8488-9D04-4C0F-813D-B01EF46749EA}
+		{9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
 	EndGlobalSection
 EndGlobal
