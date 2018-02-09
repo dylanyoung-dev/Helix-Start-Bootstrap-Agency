@@ -8,3 +8,4 @@
 /src/Project/Website/code/obj/Debug
 *.user
 /node_modules
+/src/Foundation/Serialization/code/obj/Debug

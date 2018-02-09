@@ -28,6 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{1B2FBF93-A43E-4BE4-9175-91A8A4D3325A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.Serialization", "src\Foundation\Serialization\code\Helix.Foundation.Serialization.csproj", "{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{CA093606-62E7-4BAC-A345-E5F8026A1D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA093606-62E7-4BAC-A345-E5F8026A1D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA093606-62E7-4BAC-A345-E5F8026A1D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 		{9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
 		{CAE3FEEC-78BD-46AB-AC28-600B78D3C837} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
 		{1B2FBF93-A43E-4BE4-9175-91A8A4D3325A} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
+		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3} = {9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197}
 	EndGlobalSection
 EndGlobal

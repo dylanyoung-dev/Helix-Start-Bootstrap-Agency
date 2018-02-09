@@ -1,5 +1,5 @@
 module.exports = function () {
-    var sitecoreRoot = "C:\\Sitecore\\";
+    var sitecoreRoot = "C:\\Sitecore\\example-agency";
     var config = {
         websiteRoot: sitecoreRoot + "\\Website",
         sitecoreLibraries: sitecoreRoot + "\\Website\\bin",
