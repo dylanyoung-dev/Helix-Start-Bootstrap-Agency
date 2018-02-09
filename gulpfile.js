@@ -19,7 +19,8 @@ gulp.task('default', function (callback) {
         callback);
 });
 
-gulp.task('Copy-Sitecore-Dlls', function () {
+gulp.task('_Copy-Sitecore-Dlls', function () {
+    console.log(config);
 
     fs.statSync(config.sitecoreLibraries);
 
@@ -28,5 +29,9 @@ gulp.task('Copy-Sitecore-Dlls', function () {
     var libs = gulp.src(files).pipe(gulp.dest("./Libraries"));
 
     return merge(libs);
+
+});
+
+gulp.task('_Compile-Assets', function () {
 
 });
