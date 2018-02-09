@@ -4,6 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{FEABA270-1E7E-4EDF-9A6E-535478E1CFCD}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		LICENSE = LICENSE
+		package.json = package.json
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{B99999F6-5CE0-407A-89BB-CBF4574FF39C}"
 EndProject
@@ -16,6 +23,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Website", "src\Project\Website\code\Helix.Project.Website.csproj", "{CA093606-62E7-4BAC-A345-E5F8026A1D9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{CAE3FEEC-78BD-46AB-AC28-600B78D3C837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{1B2FBF93-A43E-4BE4-9175-91A8A4D3325A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +46,7 @@ Global
 		{578E8488-9D04-4C0F-813D-B01EF46749EA} = {FC59B197-F0B7-4C2B-80F7-A7EBACAD50D8}
 		{CA093606-62E7-4BAC-A345-E5F8026A1D9B} = {578E8488-9D04-4C0F-813D-B01EF46749EA}
 		{9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
+		{CAE3FEEC-78BD-46AB-AC28-600B78D3C837} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
+		{1B2FBF93-A43E-4BE4-9175-91A8A4D3325A} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
 	EndGlobalSection
 EndGlobal

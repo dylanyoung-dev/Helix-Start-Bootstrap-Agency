@@ -7,3 +7,4 @@
 /packages
 /src/Project/Website/code/obj/Debug
 *.user
+/node_modules
