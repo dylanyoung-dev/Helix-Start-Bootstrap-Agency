@@ -20,7 +20,6 @@ gulp.task('default', function (callback) {
 });
 
 gulp.task('_Copy-Sitecore-Dlls', function () {
-    console.log(config);
 
     fs.statSync(config.sitecoreLibraries);
 

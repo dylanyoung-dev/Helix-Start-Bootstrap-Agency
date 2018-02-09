@@ -7,4 +7,5 @@ module.exports = function () {
         licensePath: sitecoreRoot + "\\Data\\license.xml",
         runCleanBuilds: false
     };
+    return config;
 };
