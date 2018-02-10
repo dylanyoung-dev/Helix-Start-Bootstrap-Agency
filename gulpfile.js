@@ -19,6 +19,9 @@ gulp.task('default', function (callback) {
         callback);
 });
 
+////////////////////////////
+//    Move Sitecore Dlls
+////////////////////////////
 gulp.task('_Copy-Sitecore-Dlls', function () {
 
     fs.statSync(config.sitecoreLibraries);
@@ -31,6 +34,21 @@ gulp.task('_Copy-Sitecore-Dlls', function () {
 
 });
 
+////////////////////////////
+//    Publish All Projects
+////////////////////////////
+gulp.task('task:Publish-All-Projects', function() {
+    var publishScript = `${__dirname}\\..\\scripts\\Publish.ps1`;
+
+    var process = exec("powershell.exe -executionpolicy unrestricted -File \"" + publishScript + "\" -BuildConfiguration \"" + env.buildConfiguration + "\"", function (err, stdout, stderr) {
+        if (err !== null) throw err;
+        console.log(stdout);
+    });
+});
+
+////////////////////////////
+//     Compile Assets
+////////////////////////////
 gulp.task('_Compile-Assets', function () {
 
 });
