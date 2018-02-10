@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Helix.Project.Website</RootNamespace>
-    <AssemblyName>Helix.Project.Website</AssemblyName>
+    <RootNamespace>Helix.Project.Agency</RootNamespace>
+    <AssemblyName>Helix.Project.Agency</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -92,8 +92,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz.Project\Project.Website.config" />
-    <Content Include="App_Config\Include\zzz.Project\Project.Website.Serialization.config" />
+    <Content Include="App_Config\Include\zzz.Project\Project.Agency.config" />
+    <Content Include="App_Config\Include\zzz.Project\Project.Agency.Serialization.config" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
     <Content Include="img\about\1.jpg" />
     <Content Include="img\about\2.jpg" />
