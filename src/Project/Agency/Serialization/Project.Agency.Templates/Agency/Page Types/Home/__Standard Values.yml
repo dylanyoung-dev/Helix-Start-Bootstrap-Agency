@@ -4,6 +4,16 @@ Parent: "be283f5c-772d-4497-b370-db61ff96ac72"
 Template: "be283f5c-772d-4497-b370-db61ff96ac72"
 Path: /sitecore/templates/Project/Agency/Page Types/Home/__Standard Values
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{9752D55F-D692-4BCD-B931-2EFC86A533F8}" />
+    </r>
 Languages:
 - Language: en
   Versions:

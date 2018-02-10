@@ -94,6 +94,8 @@
   <ItemGroup>
     <Content Include="App_Config\Include\zzz.Project\Project.Agency.config" />
     <Content Include="App_Config\Include\zzz.Project\Project.Agency.Serialization.config" />
+    <Content Include="css\agency.css" />
+    <Content Include="css\agency.min.css" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
     <Content Include="img\about\1.jpg" />
     <Content Include="img\about\2.jpg" />
