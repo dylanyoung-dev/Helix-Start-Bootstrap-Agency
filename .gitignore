@@ -10,3 +10,5 @@
 /node_modules
 /src/Foundation/Serialization/code/obj/Debug
 /Libraries
+/src/Feature/Metadata/code/obj/Debug
+/src/Feature/PageContent/code/obj/Debug

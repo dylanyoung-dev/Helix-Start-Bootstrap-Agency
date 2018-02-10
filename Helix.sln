@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{FEABA270-1E7E-4EDF-9A6E-535478E1CFCD}"
 	ProjectSection(SolutionItems) = preProject
@@ -31,7 +31,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.Serialization", "src\Foundation\Serialization\code\Helix.Foundation.Serialization.csproj", "{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meta", "Meta", "{1C5A6FA1-0325-4B75-A931-A17496F0924A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metadata", "Metadata", "{1C5A6FA1-0325-4B75-A931-A17496F0924A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Metadata", "src\Feature\Metadata\code\Helix.Feature.Metadata.csproj", "{84F0C810-E9FB-4111-A7E1-05C53B9577E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.PageContent", "src\Feature\PageContent\code\Helix.Feature.PageContent.csproj", "{7E4F63A0-D05F-441B-AB65-CF99780EEB23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +71,10 @@ Global
 		{1B2FBF93-A43E-4BE4-9175-91A8A4D3325A} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3} = {9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197}
 		{1C5A6FA1-0325-4B75-A931-A17496F0924A} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1} = {1C5A6FA1-0325-4B75-A931-A17496F0924A}
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23} = {1B2FBF93-A43E-4BE4-9175-91A8A4D3325A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97C8EAF3-A659-46EE-AC9A-A16ACDE5534F}
 	EndGlobalSection
 EndGlobal
