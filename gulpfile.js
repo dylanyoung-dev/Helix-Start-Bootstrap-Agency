@@ -5,6 +5,7 @@ var path = require("path");
 var nugetRestore = require("gulp-nuget-restore");
 var fs = require("fs");
 var util = require("gulp-util");
+var exec = require("child_process").exec;
 
 var merge = require("merge-stream");
 var runSequence = require("run-sequence");
@@ -37,10 +38,10 @@ gulp.task('_Copy-Sitecore-Dlls', function () {
 ////////////////////////////
 //    Publish All Projects
 ////////////////////////////
-gulp.task('task:Publish-All-Projects', function() {
-    var publishScript = `${__dirname}\\..\\scripts\\Publish.ps1`;
+gulp.task('_Publish-All-Projects', function() {
+    var publishScript = `${__dirname}\\build\\Publish.ps1`;
 
-    var process = exec("powershell.exe -executionpolicy unrestricted -File \"" + publishScript + "\" -BuildConfiguration \"" + env.buildConfiguration + "\"", function (err, stdout, stderr) {
+    var process = exec("powershell.exe -executionpolicy unrestricted -File \"" + publishScript + "\" -BuildConfiguration \"" + config.buildConfiguration + "\"", function (err, stdout, stderr) {
         if (err !== null) throw err;
         console.log(stdout);
     });

@@ -5,7 +5,8 @@ module.exports = function () {
         sitecoreLibraries: sitecoreRoot + "\\Website\\bin",
         solutionName: "Helix",
         licensePath: sitecoreRoot + "\\Data\\license.xml",
-        runCleanBuilds: false
+        runCleanBuilds: false,
+        buildConfiguration: "Debug"
     };
     return config;
 };
