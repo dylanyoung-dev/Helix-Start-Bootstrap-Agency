@@ -221,7 +221,7 @@
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
-    <Content Include="Views\Shared\Layouts\Main.cshtml" />
+    <Content Include="Views\Shared\Agency\Main.cshtml" />
     <Content Include="App_Config\Include\zzz.Project\Environment.Settings.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
