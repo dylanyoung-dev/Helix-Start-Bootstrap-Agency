@@ -221,6 +221,7 @@
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
     <Content Include="Views\Shared\Layouts\Main.cshtml" />
+    <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
