@@ -6,9 +6,10 @@ var nugetRestore = require("gulp-nuget-restore");
 var fs = require("fs");
 var util = require("gulp-util");
 var exec = require("child_process").exec;
-
 var merge = require("merge-stream");
 var runSequence = require("run-sequence");
+
+var $ = require('gulp-load-plugins')({ lazy: true });
 
 var config = require('./gulp-config.js')();
 
@@ -51,5 +52,17 @@ gulp.task('_Publish-All-Projects', function() {
 //     Compile Assets
 ////////////////////////////
 gulp.task('_Compile-Assets', function () {
+    return runSequence("task:compile-styles", callback);
+});
+
+gulp.task('task:compile-styles', function () {
+
+    console.log(config.styles.build);
+
+    return gulp
+        .src(config.styles.source)
+        .pipe($.sass(config.options.sass))
+        .pipe($.flatten())
+        .pipe(gulp.dest(config.styles.build));
 
 });
