@@ -6,12 +6,12 @@
 
 @if (!string.IsNullOrEmpty(Model.MetaDescription))
 {
-    <meta name="" content="" />
+    <meta name="description" content="@Model.MetaDescription" />
 }
 
 @if (!string.IsNullOrEmpty(Model.MetaKeywords))
 {
-    <meta name="" content="" />
+    <meta name="keywords" content="@Model.MetaKeywords" />
 }
 
 @if (Model.NoIndex)
