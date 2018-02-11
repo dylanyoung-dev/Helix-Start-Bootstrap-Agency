@@ -53,6 +53,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{22138916-19C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Structural", "src\Feature\Structural\code\Helix.Feature.Structural.csproj", "{FDA36D17-6025-41EC-B1C1-9604E0CC672C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portfolio", "Portfolio", "{331CB5FA-B0B1-46C9-B816-4399ADD68174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Portfolio", "src\Feature\Portfolio\code\Helix.Feature.Portfolio.csproj", "{99495158-94C5-4397-BADE-3720C5592943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,10 @@ Global
 		{FDA36D17-6025-41EC-B1C1-9604E0CC672C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA36D17-6025-41EC-B1C1-9604E0CC672C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDA36D17-6025-41EC-B1C1-9604E0CC672C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99495158-94C5-4397-BADE-3720C5592943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99495158-94C5-4397-BADE-3720C5592943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99495158-94C5-4397-BADE-3720C5592943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99495158-94C5-4397-BADE-3720C5592943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +121,8 @@ Global
 		{F68D4964-D223-44B1-8FDD-7B59A721CA7E} = {154382FB-2BDA-46C4-BCE5-859A3F568F94}
 		{22138916-19CD-4067-94A4-C00627E66ED1} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
 		{FDA36D17-6025-41EC-B1C1-9604E0CC672C} = {CAE3FEEC-78BD-46AB-AC28-600B78D3C837}
+		{331CB5FA-B0B1-46C9-B816-4399ADD68174} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
+		{99495158-94C5-4397-BADE-3720C5592943} = {331CB5FA-B0B1-46C9-B816-4399ADD68174}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97C8EAF3-A659-46EE-AC9A-A16ACDE5534F}
