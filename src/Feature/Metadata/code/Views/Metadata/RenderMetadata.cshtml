@@ -1,0 +1,20 @@
+﻿@using Helix.Feature.Metadata.Models
+
+@model IMetadata
+
+<title>@Model.MetaTitle</title>
+
+@if (!string.IsNullOrEmpty(Model.MetaDescription))
+{
+    <meta name="" content="" />
+}
+
+@if (!string.IsNullOrEmpty(Model.MetaKeywords))
+{
+    <meta name="" content="" />
+}
+
+@if (Model.NoIndex)
+{
+    <meta name="" content="" />
+}

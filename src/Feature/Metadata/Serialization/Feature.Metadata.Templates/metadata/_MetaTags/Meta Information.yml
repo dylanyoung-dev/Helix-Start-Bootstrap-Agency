@@ -1,0 +1,18 @@
+﻿---
+ID: "37575940-c06f-4994-8d2b-4ae327bad07d"
+Parent: "82a8eec9-a4c6-48b3-9b43-7bc18ddd9e5e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/feature/metadata/_MetaTags/Meta Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180211T010550Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
