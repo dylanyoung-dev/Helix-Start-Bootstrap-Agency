@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{FEABA270-1E7E-4EDF-9A6E-535478E1CFCD}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,9 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{CCE7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{FC59B197-F0B7-4C2B-80F7-A7EBACAD50D8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{578E8488-9D04-4C0F-813D-B01EF46749EA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agency", "Agency", "{578E8488-9D04-4C0F-813D-B01EF46749EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Website", "src\Project\Website\code\Helix.Project.Website.csproj", "{CA093606-62E7-4BAC-A345-E5F8026A1D9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Agency", "src\Project\Website\code\Helix.Project.Agency.csproj", "{CA093606-62E7-4BAC-A345-E5F8026A1D9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197}"
 EndProject
@@ -31,7 +31,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.Serialization", "src\Foundation\Serialization\code\Helix.Foundation.Serialization.csproj", "{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meta", "Meta", "{1C5A6FA1-0325-4B75-A931-A17496F0924A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metadata", "Metadata", "{1C5A6FA1-0325-4B75-A931-A17496F0924A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Metadata", "src\Feature\Metadata\code\Helix.Feature.Metadata.csproj", "{84F0C810-E9FB-4111-A7E1-05C53B9577E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.PageContent", "src\Feature\PageContent\code\Helix.Feature.PageContent.csproj", "{7E4F63A0-D05F-441B-AB65-CF99780EEB23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM", "ORM", "{4974D461-C429-438F-A4E9-74E44F91509F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{154382FB-2BDA-46C4-BCE5-859A3F568F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.ORM", "src\Foundation\ORM\code\Helix.Foundation.ORM.csproj", "{A0DC57F8-C1D8-4E38-95EC-22ED9660E817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiTenant", "MultiTenant", "{2A79B035-0C0F-4D97-B00F-99C596C68918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.MultiTenant", "src\Foundation\MultiTenant\code\Helix.Foundation.MultiTenant.csproj", "{BA0F71FB-9FA8-4B49-8D78-F31616F57962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +61,22 @@ Global
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DC57F8-C1D8-4E38-95EC-22ED9660E817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DC57F8-C1D8-4E38-95EC-22ED9660E817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DC57F8-C1D8-4E38-95EC-22ED9660E817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DC57F8-C1D8-4E38-95EC-22ED9660E817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0F71FB-9FA8-4B49-8D78-F31616F57962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0F71FB-9FA8-4B49-8D78-F31616F57962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0F71FB-9FA8-4B49-8D78-F31616F57962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0F71FB-9FA8-4B49-8D78-F31616F57962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +89,15 @@ Global
 		{1B2FBF93-A43E-4BE4-9175-91A8A4D3325A} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
 		{38507F7B-4D5B-4E01-B47B-88CE844FE5F3} = {9F0F7E14-AF5A-4E84-9F0F-5AAD7EDEA197}
 		{1C5A6FA1-0325-4B75-A931-A17496F0924A} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
+		{84F0C810-E9FB-4111-A7E1-05C53B9577E1} = {1C5A6FA1-0325-4B75-A931-A17496F0924A}
+		{7E4F63A0-D05F-441B-AB65-CF99780EEB23} = {1B2FBF93-A43E-4BE4-9175-91A8A4D3325A}
+		{4974D461-C429-438F-A4E9-74E44F91509F} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
+		{154382FB-2BDA-46C4-BCE5-859A3F568F94} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
+		{A0DC57F8-C1D8-4E38-95EC-22ED9660E817} = {4974D461-C429-438F-A4E9-74E44F91509F}
+		{2A79B035-0C0F-4D97-B00F-99C596C68918} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
+		{BA0F71FB-9FA8-4B49-8D78-F31616F57962} = {2A79B035-0C0F-4D97-B00F-99C596C68918}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97C8EAF3-A659-46EE-AC9A-A16ACDE5534F}
 	EndGlobalSection
 EndGlobal
