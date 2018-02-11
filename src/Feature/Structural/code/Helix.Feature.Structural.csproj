@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Structural\Section.cshtml" />
+    <Content Include="App_Config\Include\zz.Feature\Feature.Structural.Serialization.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -127,7 +128,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
