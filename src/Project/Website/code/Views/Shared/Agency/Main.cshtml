@@ -1,12 +1,17 @@
-﻿<!DOCTYPE html>
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Foundation.DynamicPlaceholders.Helpers
+@using Helix.Feature.Metadata
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Agency - Start Bootstrap Theme</title>
+
+    @Html.Sitecore().Rendering(Constants.Metadata_RenderMetadata_Rendering)
+
     <!-- Bootstrap Core CSS -->
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -59,6 +64,8 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    @Html.Sitecore().TrueDynamicPlaceholder("Page.Grid")
     <!-- Header -->
     <header>
         <div class="container">

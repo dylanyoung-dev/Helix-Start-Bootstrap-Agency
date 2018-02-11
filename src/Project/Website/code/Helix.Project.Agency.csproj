@@ -51,6 +51,12 @@
     <Reference Include="Sitecore.Foundation.DynamicPlaceholders, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\SitecoreMaster.TrueDynamicPlaceholders.1.0.3\lib\Sitecore.Foundation.DynamicPlaceholders.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\..\..\Libraries\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\..\..\..\Libraries\Sitecore.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -242,6 +248,12 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Feature\Metadata\code\Helix.Feature.Metadata.csproj">
+      <Project>{84f0c810-e9fb-4111-a7e1-05c53b9577e1}</Project>
+      <Name>Helix.Feature.Metadata</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
