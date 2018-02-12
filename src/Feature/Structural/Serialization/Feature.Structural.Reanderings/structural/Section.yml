@@ -1,0 +1,14 @@
+﻿---
+ID: "dd6588f7-6a7f-4e88-8cd6-9604305adbd3"
+Parent: "4491684c-6132-49be-b98a-4eb4c3faa3bd"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/feature/structural/Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180211T201016Z

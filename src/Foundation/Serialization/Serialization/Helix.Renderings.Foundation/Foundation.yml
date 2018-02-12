@@ -2,7 +2,7 @@
 ID: "862b7eef-abb3-4990-bf18-41b13024d114"
 Parent: "32566f0e-7686-45f1-a12f-d7260bd78bc3"
 Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
-Path: /sitecore/layout/Renderings/Foundation
+Path: /sitecore/layout/Renderings/foundation
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -10,6 +10,10 @@ SharedFields:
   Value: applications/32x32/folder_gear.png
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Foundation
   Versions:
   - Version: 1
     Fields:
