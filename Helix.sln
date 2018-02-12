@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{FEABA270-1E7E-4EDF-9A6E-535478E1CFCD}"
 	ProjectSection(SolutionItems) = preProject
@@ -61,6 +61,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Services", "src\Feature\Services\code\Helix.Feature.Services.csproj", "{D999DF51-4A93-4751-8486-E5F282C7C1CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{20E15BD6-92D5-4F54-A396-DA05B4C81FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.Assets", "src\Foundation\Assets\code\Helix.Foundation.Assets.csproj", "{78F72C14-8DAB-4242-B406-54194722103F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +111,10 @@ Global
 		{D999DF51-4A93-4751-8486-E5F282C7C1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D999DF51-4A93-4751-8486-E5F282C7C1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D999DF51-4A93-4751-8486-E5F282C7C1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F72C14-8DAB-4242-B406-54194722103F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F72C14-8DAB-4242-B406-54194722103F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F72C14-8DAB-4242-B406-54194722103F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F72C14-8DAB-4242-B406-54194722103F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +141,8 @@ Global
 		{CA093606-62E7-4BAC-A345-E5F8026A1D9B} = {578E8488-9D04-4C0F-813D-B01EF46749EA}
 		{8DF8FA78-61F8-4B7F-B8BB-FA3D27460533} = {CCE7A86D-B7EB-432F-A78A-49CCDAA1C915}
 		{D999DF51-4A93-4751-8486-E5F282C7C1CD} = {8DF8FA78-61F8-4B7F-B8BB-FA3D27460533}
+		{20E15BD6-92D5-4F54-A396-DA05B4C81FF6} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
+		{78F72C14-8DAB-4242-B406-54194722103F} = {20E15BD6-92D5-4F54-A396-DA05B4C81FF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97C8EAF3-A659-46EE-AC9A-A16ACDE5534F}
