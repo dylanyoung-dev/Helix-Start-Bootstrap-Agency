@@ -60,6 +60,9 @@
       <HintPath>..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Foundation.DynamicPlaceholders, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\SitecoreMaster.TrueDynamicPlaceholders.1.0.3\lib\Sitecore.Foundation.DynamicPlaceholders.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\..\Libraries\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -109,6 +112,7 @@
   <ItemGroup>
     <Content Include="Views\Structural\Section.cshtml" />
     <Content Include="App_Config\Include\zz.Feature\Feature.Structural.Serialization.config" />
+    <Content Include="Views\Structural\Container.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

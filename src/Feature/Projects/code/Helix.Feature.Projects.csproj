@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
-    <Content Include="App_Config\Include\zz.Feature\Feature.Portfolio.Serialization.config" />
+    <Content Include="App_Config\Include\zz.Feature\Feature.Projects.Serialization.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
