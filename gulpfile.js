@@ -44,6 +44,8 @@ gulp.task('_Publish-All-Projects', function() {
 
     var process = exec("powershell.exe -executionpolicy unrestricted -File \"" + publishScript + "\" -BuildConfiguration \"" + config.buildConfiguration + "\"", function (err, stdout, stderr) {
         if (err !== null) throw err;
+        console.log(err);
+        console.log(stderr);
         console.log(stdout);
     });
 });
@@ -56,8 +58,6 @@ gulp.task('_Compile-Assets', function () {
 });
 
 gulp.task('task:compile-styles', function () {
-
-    console.log(config.styles.build);
 
     return gulp
         .src(config.styles.source)

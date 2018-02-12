@@ -1,0 +1,14 @@
+﻿---
+ID: "9b3b271a-df7c-404f-9ac3-3f16fc402d4d"
+Parent: "c112bb85-8aa3-4743-9ab8-337a812a7b9d"
+Template: "eb6855e9-a8b6-4a3b-a2de-2f7829483b04"
+Path: /sitecore/content/agency/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180211T174505Z
