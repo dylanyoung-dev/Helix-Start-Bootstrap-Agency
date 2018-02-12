@@ -10,8 +10,6 @@ namespace Helix.Foundation.Ioc.Infrastructure
         {
             serviceCollection.AddMvcControllers("*.Feature.*");
             serviceCollection.AddMvcControllers("*.Foundation.*");
-            serviceCollection.AddClassesWithServiceAttribute("*.Feature.*");
-            serviceCollection.AddClassesWithServiceAttribute("*.Foundation.*");
         }
     }
 }
