@@ -1,0 +1,18 @@
+﻿---
+ID: "05240977-e3b9-4b25-9764-85697acd2b6f"
+Parent: "0aec13f0-984e-4c21-86f7-18bd23d4300b"
+Template: "0aec13f0-984e-4c21-86f7-18bd23d4300b"
+Path: /sitecore/templates/feature/PageContent/_SectionHeader/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180212T005842Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

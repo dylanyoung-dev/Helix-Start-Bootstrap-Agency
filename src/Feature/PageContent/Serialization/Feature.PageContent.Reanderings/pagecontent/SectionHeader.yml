@@ -1,13 +1,13 @@
 ﻿---
-ID: "bd3adc1c-9195-48fd-8835-a9abb4cf757f"
+ID: "a9ac2487-3db8-443e-a6b9-cd1171358491"
 Parent: "1ee15ab3-c4f0-48de-8830-be05d8d50817"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/feature/pagecontent/Hero
+Path: /sitecore/layout/Renderings/feature/pagecontent/SectionHeader
 DB: master
 SharedFields:
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: Hero
+  Value: SectionHeader
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: Helix.Feature.PageContent.Controllers.PageContentController, Helix.Feature.PageContent
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180211T174618Z
+      Value: 20180212T005512Z
