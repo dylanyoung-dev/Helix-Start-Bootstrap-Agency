@@ -2,6 +2,6 @@ Param(
     [string]$BuildConfiguration
 )
 
-Import-Module ".\Invoke-MsBuild.psm1" -Verbose
+Import-Module "C:\Development\Helix-Start-Bootstrap\build\Invoke-MsBuild.psm1" -Verbose
 
-Invoke-MsBuild -Path "..\Helix.sln" -MsBuildParameters "/p:DeployOnBuild=true /p:PublishProfile=$($BuildConfiguration)" -ShowBuildOutputInNewWindow -LogVerbosityLevel minimal
+Invoke-MsBuild -Path "C:\Development\Helix-Start-Bootstrap\Helix.sln" -MsBuildParameters "/p:DeployOnBuild=true /p:PublishProfile=$($BuildConfiguration)" -ShowBuildOutputInNewWindow -LogVerbosityLevel minimal
