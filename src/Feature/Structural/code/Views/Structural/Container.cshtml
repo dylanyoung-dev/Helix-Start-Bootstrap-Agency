@@ -5,7 +5,7 @@
 
 @model IGridSettings
 
-<div id="@Model.ElementId" class="container @Model.Classes">
+<div id="@((Model != null && !string.IsNullOrEmpty(Model.ElementId)) ? Model.ElementId : string.Empty)" class="container @((Model != null && !string.IsNullOrEmpty(Model.Classes)) ? Model.Classes : string.Empty)">
     <div class="row">
         @Html.Sitecore().TrueDynamicPlaceholder("Grid.Container")
     </div>
