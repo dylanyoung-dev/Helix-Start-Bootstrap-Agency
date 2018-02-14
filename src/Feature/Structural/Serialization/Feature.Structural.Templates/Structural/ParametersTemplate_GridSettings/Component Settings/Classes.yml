@@ -1,8 +1,8 @@
 ﻿---
-ID: "b3004ac2-1513-4134-abed-b9bd55c45df6"
-Parent: "415c5594-084c-4f97-ab08-6f08335d5c04"
+ID: "51d5f220-aa4c-4617-b73d-0d682e88b444"
+Parent: "3edaaae0-ba61-4986-907b-d8fdc5d2d574"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/feature/PageContent/_SectionHeader/Header Information/SectionHeaderTitle
+Path: /sitecore/templates/feature/Structural/ParametersTemplate_GridSettings/Component Settings/Classes
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,16 +10,12 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 200
 Languages:
 - Language: en
-  Fields:
-  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
-    Hint: Title
-    Value: Title
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180212T005835Z
+      Value: 20180214T015655Z

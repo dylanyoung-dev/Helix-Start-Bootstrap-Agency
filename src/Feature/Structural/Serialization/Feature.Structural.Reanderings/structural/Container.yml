@@ -1,19 +1,16 @@
 ﻿---
-ID: "dd6588f7-6a7f-4e88-8cd6-9604305adbd3"
+ID: "f2fcca2b-30a0-4cbe-a9d8-fbce8045f8b9"
 Parent: "4491684c-6132-49be-b98a-4eb4c3faa3bd"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/feature/structural/Section
+Path: /sitecore/layout/Renderings/feature/structural/Container
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/32x32/selection.png
-- ID: "13f89250-ad6b-4548-882e-118a12c18094"
-  Hint: Parameters Template
-  Value: "{A6D260BE-E659-46BD-9F28-19D198E962C2}"
+  Value: Applications/32x32/window_dialog.png
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: Section
+  Value: Container
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: Helix.Feature.Structural.Controllers.StructuralController, Helix.Feature.Structural
@@ -24,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180211T201016Z
+      Value: 20180214T020208Z
