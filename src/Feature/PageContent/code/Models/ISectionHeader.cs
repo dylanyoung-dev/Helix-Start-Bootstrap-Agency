@@ -1,4 +1,5 @@
 ﻿using Glass.Mapper.Sc.Configuration.Attributes;
+using Helix.Feature.PageContent.Constants;
 using Helix.Foundation.ORM.Models;
 using System;
 using System.Collections.Generic;
@@ -8,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace Helix.Feature.PageContent.Models
 {
-    [SitecoreType(TemplateId = Constants.TemplateIdString)]
+    [SitecoreType(TemplateId = SectionHeader.TemplateIdString)]
     public interface ISectionHeader : IGlassBase
     {
-        [SitecoreField(FieldName = Constants.TitleName)]
+        [SitecoreField(FieldName = SectionHeader.TitleName)]
         string Title { get; set; }
 
-        [SitecoreField(FieldName = Constants.DescriptionName)]
+        [SitecoreField(FieldName = SectionHeader.DescriptionName)]
         string Description { get; set; }
     }
 }
