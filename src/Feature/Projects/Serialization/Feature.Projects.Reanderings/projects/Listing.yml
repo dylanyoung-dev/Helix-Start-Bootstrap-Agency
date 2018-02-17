@@ -1,0 +1,21 @@
+﻿---
+ID: "c96b4c42-c283-4327-a548-6da7f8d6a262"
+Parent: "7193e760-15f0-40f8-af8c-f97153dc0a56"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/feature/projects/Listing
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Listing
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Helix.Feature.Portfolio.Controllers.ProjectController, Helix.Feature.Portfolio
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180217T034604Z
