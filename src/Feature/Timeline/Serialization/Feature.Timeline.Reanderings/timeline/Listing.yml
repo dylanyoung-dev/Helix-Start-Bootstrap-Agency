@@ -1,0 +1,25 @@
+﻿---
+ID: "15b00876-6d0e-4110-8558-1a3150b89114"
+Parent: "5166b74f-1454-4256-b1b5-2ca070500623"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/feature/timeline/Listing
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Listing
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Helix.Feature.Timeline.Controllers.TimelineController, Helix.Feature.Timeline
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Timeline - Listing"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180217T154250Z
