@@ -5,6 +5,6 @@
 
 @model IGridSettings
 
-<div id="@((Model != null && !string.IsNullOrEmpty(Model.ElementId)) ? Model.ElementId : string.Empty)" class="@((Model != null && !string.IsNullOrEmpty(Model.Classes)) ? Model.Classes : string.Empty)">
+<section id="@((Model != null && !string.IsNullOrEmpty(Model.ElementId)) ? Model.ElementId : string.Empty)" class="@((Model != null && !string.IsNullOrEmpty(Model.Classes)) ? Model.Classes : string.Empty)">
     @Html.Sitecore().TrueDynamicPlaceholder("Grid.Section")
-</div>
+</section>

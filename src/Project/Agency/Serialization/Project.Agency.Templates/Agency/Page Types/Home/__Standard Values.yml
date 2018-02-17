@@ -29,6 +29,10 @@ SharedFields:
           ph="Grid.Container"
           uid="{BB962926-D2A5-4109-B95F-F4C6310E0B76}" />
         <r
+          id="{CE3EA9D2-1F74-421E-BE08-543F2D6817E8}"
+          ph="Grid.Container"
+          uid="{560CE4A3-0413-4E04-A077-C558853A7039}" />
+        <r
           id="{DD6588F7-6A7F-4E88-8CD6-9604305ADBD3}"
           par="ElementId=portfolio&amp;Classes=bg-light-gray"
           ph="Page.Grid"
@@ -43,6 +47,59 @@ SharedFields:
           par=""
           ph="Grid.Container"
           uid="{F413C747-638B-427C-9DA1-A1B580F7F0E3}" />
+        <r
+          id="{C96B4C42-C283-4327-A548-6DA7F8D6A262}"
+          ph="Grid.Container"
+          uid="{B661E589-34A2-45FD-966C-664D17235B2C}" />
+        <r
+          id="{DD6588F7-6A7F-4E88-8CD6-9604305ADBD3}"
+          par="ElementId=about&amp;Classes"
+          ph="Page.Grid"
+          uid="{58E85C5C-553D-4568-A849-3D69271ABABE}" />
+        <r
+          id="{F2FCCA2B-30A0-4CBE-A9D8-FBCE8045F8B9}"
+          ph="Grid.Section"
+          uid="{A70AC845-0812-425D-A80D-409862C43E62}" />
+        <r
+          ds="{0DB81047-9085-435A-9348-B1BC8BE767F0}"
+          id="{A9AC2487-3DB8-443E-A6B9-CD1171358491}"
+          par=""
+          ph="Grid.Container"
+          uid="{D43F348A-AFE9-4017-A86C-1E725C740F45}" />
+        <r
+          id="{15B00876-6D0E-4110-8558-1A3150B89114}"
+          ph="Grid.Container"
+          uid="{E682A1D0-D7BE-4BB8-8AA0-8782D417AC3E}" />
+        <r
+          id="{DD6588F7-6A7F-4E88-8CD6-9604305ADBD3}"
+          par="ElementId=team&amp;Classes"
+          ph="Page.Grid"
+          uid="{0C42B1E2-F1D4-4102-8A07-759FA0795C7C}" />
+        <r
+          id="{F2FCCA2B-30A0-4CBE-A9D8-FBCE8045F8B9}"
+          ph="Grid.Section"
+          uid="{DB8025C8-6F60-4BBD-B8CE-1617339BF00A}" />
+        <r
+          ds="{5514E420-20E1-4A42-BFFD-16D1A94D071A}"
+          id="{A9AC2487-3DB8-443E-A6B9-CD1171358491}"
+          par=""
+          ph="Grid.Container"
+          uid="{E7573583-B95D-402E-91CA-D091EB51F2B4}" />
+        <r
+          id="{DD6588F7-6A7F-4E88-8CD6-9604305ADBD3}"
+          par="ElementId=contact&amp;Classes"
+          ph="Page.Grid"
+          uid="{4346B879-5923-4354-9DD5-50FDB6F39B8C}" />
+        <r
+          id="{F2FCCA2B-30A0-4CBE-A9D8-FBCE8045F8B9}"
+          ph="Grid.Section"
+          uid="{4F5F9E70-F971-4C22-9FA8-DA31A9F1585D}" />
+        <r
+          ds="{50300E4F-DBFD-4EFA-A49F-B5FD459FFCD7}"
+          id="{A9AC2487-3DB8-443E-A6B9-CD1171358491}"
+          par=""
+          ph="Grid.Container"
+          uid="{70921EA4-C959-4C68-BFF9-D7E03644AE91}" />
       </d>
     </r>
 Languages:

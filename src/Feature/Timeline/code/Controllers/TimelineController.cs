@@ -5,9 +5,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Helix.Feature.Services.Controllers
+namespace Helix.Feature.Timeline.Controllers
 {
-    public class ServicesController : BaseController
+    public class TimelineController : BaseController
     {
         public ActionResult Listing()
         {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Helix.Feature.Portfolio.Controllers
+namespace Helix.Feature.Projects.Controllers
 {
     public class ProjectController : BaseController
     {
