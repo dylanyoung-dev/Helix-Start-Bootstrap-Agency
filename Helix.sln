@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Taxonomy", "Taxonomy", "{01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.Taxonomy", "src\Foundation\Taxonomy\code\Helix.Foundation.Taxonomy.csproj", "{FFAFF82F-5951-4935-B730-DDFC9146E44F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3B065CBA-F0BE-4DB6-A28D-D7F6C0592E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Common", "src\Project\code\Helix.Project.Common.csproj", "{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +159,10 @@ Global
 		{FFAFF82F-5951-4935-B730-DDFC9146E44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFAFF82F-5951-4935-B730-DDFC9146E44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFAFF82F-5951-4935-B730-DDFC9146E44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +201,8 @@ Global
 		{6C5F6647-0DA7-461C-B32C-6B4B4FE6601F} = {44345745-87FA-4E50-ABA7-90C3BC6F14E1}
 		{0121975D-0E1D-41E9-AE81-DCA25A53DC6F} = {B99999F6-5CE0-407A-89BB-CBF4574FF39C}
 		{FFAFF82F-5951-4935-B730-DDFC9146E44F} = {0121975D-0E1D-41E9-AE81-DCA25A53DC6F}
+		{3B065CBA-F0BE-4DB6-A28D-D7F6C0592E9F} = {FC59B197-F0B7-4C2B-80F7-A7EBACAD50D8}
+		{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079} = {3B065CBA-F0BE-4DB6-A28D-D7F6C0592E9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97C8EAF3-A659-46EE-AC9A-A16ACDE5534F}
