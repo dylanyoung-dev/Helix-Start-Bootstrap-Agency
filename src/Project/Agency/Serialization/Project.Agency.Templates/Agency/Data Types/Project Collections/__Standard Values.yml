@@ -1,0 +1,14 @@
+﻿---
+ID: "ba0a98d4-2d5c-43f4-9048-b6e3f8a55df9"
+Parent: "5f3f1453-8761-4de4-808e-669c612ee36c"
+Template: "5f3f1453-8761-4de4-808e-669c612ee36c"
+Path: /sitecore/templates/project/Agency/Data Types/Project Collections/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180312T023048Z
