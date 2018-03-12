@@ -87,7 +87,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.Taxonomy",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3B065CBA-F0BE-4DB6-A28D-D7F6C0592E9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Common", "src\Project\code\Helix.Project.Common.csproj", "{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Common", "src\Project\Common\code\Helix.Project.Common.csproj", "{07BFFDE8-6547-4AAF-99B6-AEFF42A9F079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
