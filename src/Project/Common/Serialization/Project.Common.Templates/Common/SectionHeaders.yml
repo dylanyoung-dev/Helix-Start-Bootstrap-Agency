@@ -1,8 +1,8 @@
 ﻿---
 ID: "37328402-f91c-4870-8df4-0e14c12da379"
-Parent: "a3505dc2-bf35-461b-8dd3-f1815621700b"
+Parent: "49f05dea-6503-4006-baa9-87e3469d18c6"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/feature/PageContent/SectionHeaders
+Path: /sitecore/templates/project/Common/SectionHeaders
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

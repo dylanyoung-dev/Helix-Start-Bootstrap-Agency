@@ -1,8 +1,8 @@
 ﻿---
 ID: "5f91abb8-fabf-41dd-a511-99de929d1b1f"
-Parent: "33599883-7cd5-427d-9391-77f677c27cd9"
+Parent: "49f05dea-6503-4006-baa9-87e3469d18c6"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/feature/projects/Project Collection Folder
+Path: /sitecore/templates/project/Common/Project Collection Folder
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
