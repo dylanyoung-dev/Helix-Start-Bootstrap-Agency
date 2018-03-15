@@ -2,7 +2,7 @@
 ID: "119ec8a4-3dfa-4e63-bbb2-86b30923d328"
 Parent: "de4bfb13-973c-4dc2-acad-5e7b358ab1bf"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Foundation/MultiTenant
+Path: /sitecore/templates/foundation/MultiTenant
 DB: master
 Languages:
 - Language: en

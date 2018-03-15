@@ -2,7 +2,7 @@
 ID: "a1064de5-bbaa-4b7e-aba3-51c5b3c208d7"
 Parent: "119ec8a4-3dfa-4e63-bbb2-86b30923d328"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/MultiTenant/SitesFolder
+Path: /sitecore/templates/foundation/MultiTenant/SitesFolder
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

@@ -4,6 +4,13 @@ Parent: "faf72982-5dcf-4804-9817-c1a2533bae29"
 Template: "faf72982-5dcf-4804-9817-c1a2533bae29"
 Path: /sitecore/templates/foundation/Taxonomy/LookupCategory/__Standard Values
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {F2FE6693-3A29-45A9-9C09-1F26E7D5B0CE}
+    {FAF72982-5DCF-4804-9817-C1A2533BAE29}
 Languages:
 - Language: en
   Versions:

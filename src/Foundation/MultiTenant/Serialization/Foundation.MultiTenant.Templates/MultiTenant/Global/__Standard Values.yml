@@ -4,6 +4,11 @@ Parent: "72ff6645-3ef3-420b-8122-cdedd0fc2939"
 Template: "72ff6645-3ef3-420b-8122-cdedd0fc2939"
 Path: /sitecore/templates/foundation/MultiTenant/Global/__Standard Values
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FAF72982-5DCF-4804-9817-C1A2533BAE29}"
 Languages:
 - Language: en
   Versions:
