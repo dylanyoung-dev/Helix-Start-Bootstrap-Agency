@@ -11,6 +11,9 @@ SharedFields:
   Value: |
     {F2FE6693-3A29-45A9-9C09-1F26E7D5B0CE}
     {FAF72982-5DCF-4804-9817-C1A2533BAE29}
+- ID: "7e7b00a0-0c76-41d2-883c-5fa07cb3c745"
+  Hint: Name
+  Value: $name
 Languages:
 - Language: en
   Versions:

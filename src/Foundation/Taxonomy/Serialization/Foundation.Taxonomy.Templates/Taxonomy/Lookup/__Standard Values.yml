@@ -9,6 +9,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "137f6b96-a461-4f97-b6ac-3e383a51a459"
+      Hint: Value
+      Value: $id
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180315T165350Z
@@ -16,3 +19,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "93734e28-0683-40e4-a3cc-a980100e99d0"
+      Hint: Name
+      Value: $name
