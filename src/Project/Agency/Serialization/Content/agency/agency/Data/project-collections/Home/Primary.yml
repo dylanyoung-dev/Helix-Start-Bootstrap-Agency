@@ -1,0 +1,26 @@
+﻿---
+ID: "b3abbc6e-165c-46ae-b42b-0170798a250d"
+Parent: "6530c515-87d6-4272-8ba6-2b291b9e5c87"
+Template: "5f3f1453-8761-4de4-808e-669c612ee36c"
+Path: "/sitecore/content/agency/Data/project-collections/home/primary"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Primary
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13a331f7-e588-4768-b2aa-a140de6335b6"
+      Hint: Projects
+      Type: Treelist
+      Value: "{BE5B6835-8D37-41E8-A773-87040258D55D}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180312T024316Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

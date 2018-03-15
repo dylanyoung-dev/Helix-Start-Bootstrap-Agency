@@ -1,4 +1,5 @@
-﻿using Helix.Foundation.ORM.Controllers.Base;
+﻿using Helix.Feature.Projects.Models.Interface;
+using Helix.Foundation.ORM.Controllers.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,13 @@ namespace Helix.Feature.Projects.Controllers
     {
         public ActionResult Listing()
         {
+            IProjectCollection datasource = this.GetDataSourceItem<IProjectCollection>();
+
+            if (datasource != null)
+            {
+                return View(datasource);
+            }
+
             return View();
         }
     }
