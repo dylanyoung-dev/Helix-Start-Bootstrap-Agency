@@ -1,0 +1,26 @@
+﻿---
+ID: "775549c7-40b6-4dc9-8a48-65f140e57508"
+Parent: "b63bfadd-01ad-4fcb-a6b1-15891cec191a"
+Template: "1ab4f9ad-b004-413c-8924-3e07143a614b"
+Path: /sitecore/content/Applications/WebEdit/Common Field Buttons/Feature/Projects/Project Listing Fields
+DB: core
+SharedFields:
+- ID: "4431914a-c40b-437c-8add-d2ed12cc8cc3"
+  Hint: Icon
+  Value: Office/32x32/hammer.png
+Languages:
+- Language: en
+  Fields:
+  - ID: "5f0812af-d370-4292-afee-f26a39b7406d"
+    Hint: Tooltip
+    Value: Edit Additional Fields
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180315T154019Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
