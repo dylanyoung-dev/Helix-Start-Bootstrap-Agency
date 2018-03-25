@@ -4,6 +4,21 @@ Parent: "c112bb85-8aa3-4743-9ab8-337a812a7b9d"
 Template: "be283f5c-772d-4497-b370-db61ff96ac72"
 Path: /sitecore/content/agency/home
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B661E589-34A2-45FD-966C-664D17235B2C}"
+          s:ds="{B3ABBC6E-165C-46AE-B42B-0170798A250D}"
+          s:par="" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:

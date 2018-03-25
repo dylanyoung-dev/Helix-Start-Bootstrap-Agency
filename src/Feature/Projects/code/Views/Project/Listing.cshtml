@@ -3,12 +3,12 @@
 
 @model IProjectCollection
 
-@if (Model != null && Model.Projects != null || Model.Projects.Any() || Sitecore.Context.PageMode.IsExperienceEditorEditing)
+@if ((Model != null && Model.Projects != null && Model.Projects.Any()) || Sitecore.Context.PageMode.IsExperienceEditorEditing)
 {
     <div class="row">
         @foreach (IProject project in Model.Projects)
         {
-            Html.RenderPartial("_Project", project)
+            Html.RenderPartial("_Project", project);
         }
     </div>
 }
