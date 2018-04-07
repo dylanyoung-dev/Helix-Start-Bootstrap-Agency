@@ -113,6 +113,7 @@
     <Content Include="Views\Structural\Section.cshtml" />
     <Content Include="App_Config\Include\zz.Feature\Feature.Structural.Serialization.config" />
     <Content Include="Views\Structural\Container.cshtml" />
+    <Content Include="Views\Structural\Header.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
