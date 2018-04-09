@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Glass.Mapper.Sc.Web.Mvc
+@using Helix.Feature.Projects.Models.Interface
+
+@model IProject
+
+<div class="col-md-4 col-sm-6 portfolio-item">
+    <a href="#portfolioModal" class="portfolio-link">
+        <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+            </div>
+        </div>
+        @Html.Glass().Editable(x => x.ThumbImage, new { @class = "img-responsive" })
+    </a>
+    <div class="portfolio-caption">
+       <h4>@Html.Glass().Editable(x => x.Name)</h4>
+        <p class="text-muted">Project Type</p>
+    </div>
+</div>

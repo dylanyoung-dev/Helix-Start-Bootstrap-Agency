@@ -5,6 +5,10 @@ Template: "be283f5c-772d-4497-b370-db61ff96ac72"
 Path: /sitecore/templates/project/Agency/Page Types/Home/__Standard Values
 DB: master
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{8891402D-6D44-442B-B5BE-5DF5F2FE3774}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -13,6 +17,14 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{9752D55F-D692-4BCD-B931-2EFC86A533F8}">
+        <r
+          id="{875F1D1F-ADF3-4624-A674-9615F5229907}"
+          ph="Page.Grid"
+          uid="{1F447D9B-81A8-4244-8C1E-1C88A1FE92B4}" />
+        <r
+          id="{BD3ADC1C-9195-48FD-8835-A9ABB4CF757F}"
+          ph="Grid.Header"
+          uid="{8AC2F91E-9105-4423-873E-6B5B21206283}" />
         <r
           id="{DD6588F7-6A7F-4E88-8CD6-9604305ADBD3}"
           par="ElementId=services&amp;Classes"

@@ -2,7 +2,7 @@
 ID: "7b446dff-348a-4036-86ba-e621456b0934"
 Parent: "a1064de5-bbaa-4b7e-aba3-51c5b3c208d7"
 Template: "a1064de5-bbaa-4b7e-aba3-51c5b3c208d7"
-Path: /sitecore/templates/Foundation/MultiTenant/SitesFolder/__Standard Values
+Path: /sitecore/templates/foundation/MultiTenant/SitesFolder/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
@@ -11,6 +11,7 @@ SharedFields:
   Value: |
     {BE283F5C-772D-4497-B370-DB61FF96AC72}
     {EB6855E9-A8B6-4A3B-A2DE-2F7829483B04}
+    {38CBA701-087D-42A2-B3C4-B2B9269CC95B}
 Languages:
 - Language: en
   Versions:

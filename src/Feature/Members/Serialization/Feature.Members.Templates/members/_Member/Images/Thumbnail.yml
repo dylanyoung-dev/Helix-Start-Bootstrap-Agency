@@ -1,0 +1,21 @@
+﻿---
+ID: "97299c06-4bce-4ba5-9781-4c61edc2ca9d"
+Parent: "7eb432ee-1475-4dc5-82ec-8f1f27d16926"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/feature/members/_Member/Images/Thumbnail
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180407T171456Z

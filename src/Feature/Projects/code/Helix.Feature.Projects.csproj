@@ -107,12 +107,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\Projects\ProductModal.js" />
     <Content Include="Views\Project\Listing.cshtml" />
+    <Content Include="Views\Project\_Project.cshtml" />
+    <Content Include="Views\Project\_ProjectModal.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants\Project.cs" />
+    <Compile Include="Constants\ProjectCollection.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Models\Interface\IProject.cs" />
+    <Compile Include="Models\Interface\IProjectCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -128,9 +135,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\ORM\code\Helix.Foundation.ORM.csproj">
       <Project>{a0dc57f8-c1d8-4e38-95ec-22ed9660e817}</Project>
