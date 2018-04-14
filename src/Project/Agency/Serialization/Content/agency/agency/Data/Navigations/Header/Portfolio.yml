@@ -1,0 +1,29 @@
+﻿---
+ID: "773b792a-f8fe-4861-a67e-d11644c00ac2"
+Parent: "2fbe60f6-fc56-48bb-92a8-bbca88619756"
+Template: "4dd9c298-e411-40af-ac5a-fba381482d30"
+Path: /sitecore/content/agency/Data/navigations/header/portfolio
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Portfolio
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T153337Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b2c838f2-e270-425d-a06a-9cf94b565ecb"
+      Hint: Title
+      Value: Portfolio
+    - ID: "e22f0bb7-afcf-4d51-89c6-8df0ed2c9cdf"
+      Hint: Link
+      Value: |
+        <link text="Portfolio" linktype="anchor" url="portfolio" anchor="portfolio" title="" class="" />

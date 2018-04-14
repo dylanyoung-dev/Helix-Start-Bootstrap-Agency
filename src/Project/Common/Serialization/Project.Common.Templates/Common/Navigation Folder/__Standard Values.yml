@@ -1,18 +1,16 @@
 ﻿---
-ID: "d69383cd-ec44-45bf-8169-c0f2b09fb29d"
-Parent: "eb6855e9-a8b6-4a3b-a2de-2f7829483b04"
-Template: "eb6855e9-a8b6-4a3b-a2de-2f7829483b04"
-Path: /sitecore/templates/foundation/MultiTenant/Data/__Standard Values
+ID: "a7cfbaca-ab2a-4ebe-9a98-0cd25bbb2158"
+Parent: "336fed50-1cb8-445f-9ddb-20323488393a"
+Template: "336fed50-1cb8-445f-9ddb-20323488393a"
+Path: /sitecore/templates/project/Common/Navigation Folder/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
   Value: |
-    {37328402-F91C-4870-8DF4-0E14C12DA379}
-    {5F91ABB8-FABF-41DD-A511-99DE929D1B1F}
-    {F6509182-F75A-4F8E-B80E-1B6F5D8DEBF8}
     {336FED50-1CB8-445F-9DDB-20323488393A}
+    {4DD9C298-E411-40AF-AC5A-FBA381482D30}
 Languages:
 - Language: en
   Versions:
@@ -20,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180211T174131Z
+      Value: 20180414T153148Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -1,0 +1,21 @@
+﻿---
+ID: "eeb1120c-39bd-4df2-84a7-7b1baf36b50f"
+Parent: "4dd9c298-e411-40af-ac5a-fba381482d30"
+Template: "4dd9c298-e411-40af-ac5a-fba381482d30"
+Path: /sitecore/templates/project/Agency/Data Types/navigationitem/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T153039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b2c838f2-e270-425d-a06a-9cf94b565ecb"
+      Hint: Title
+      Value: $name

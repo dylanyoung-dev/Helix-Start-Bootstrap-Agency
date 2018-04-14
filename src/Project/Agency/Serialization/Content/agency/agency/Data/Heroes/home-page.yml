@@ -26,7 +26,7 @@ Languages:
     - ID: "951b21e4-450f-44f8-81dc-233b3fc9c548"
       Hint: Button
       Value: |
-        <link text="Tell Me More" linktype="anchor" url="#services" anchor="#services" title="" class="" />
+        <link text="Tell Me More" linktype="anchor" url="services" anchor="services" title="" class="" />
     - ID: "c6ec5294-f154-4842-aae4-131aa6bccdbe"
       Hint: LeadInTitle
       Value: Welcome To Our Studio
