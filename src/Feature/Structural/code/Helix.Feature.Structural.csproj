@@ -114,6 +114,8 @@
     <Content Include="App_Config\Include\zz.Feature\Feature.Structural.Serialization.config" />
     <Content Include="Views\Structural\Container.cshtml" />
     <Content Include="Views\Structural\Header.cshtml" />
+    <Content Include="Views\Grids\4x4x4.cshtml" />
+    <Content Include="Views\Grids\6x6.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
