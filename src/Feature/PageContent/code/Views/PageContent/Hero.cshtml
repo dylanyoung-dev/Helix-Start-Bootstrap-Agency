@@ -1,11 +1,17 @@
 ﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@using Glass.Mapper.Sc.Web.Mvc
+@using Helix.Feature.PageContent.Models
 
-@model RenderingModel
+@model IHero
 
-<div class="container">
-    <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading">It's Nice To Meet You</div>
-        <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+@if (Model != null || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">@Html.Glass().Editable(x => x.LeadInTitle)</div>
+            <div class="intro-heading">@Html.Glass().Editable(x => x.Heading)</div>
+            <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+        </div>
     </div>
-</div>
+}

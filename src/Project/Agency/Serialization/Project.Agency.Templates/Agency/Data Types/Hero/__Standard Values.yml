@@ -1,0 +1,14 @@
+﻿---
+ID: "852c4806-7da4-400e-8683-b0b710e261ca"
+Parent: "ca8045ec-b8b3-4100-8c5e-0b7ac263ee21"
+Template: "ca8045ec-b8b3-4100-8c5e-0b7ac263ee21"
+Path: /sitecore/templates/project/Agency/Data Types/Hero/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T013846Z

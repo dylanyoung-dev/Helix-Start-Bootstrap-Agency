@@ -13,7 +13,12 @@ namespace Helix.Feature.PageContent.Controllers
 
         public ActionResult Hero()
         {
-            return View();
+            IHero hero = this.GetDataSourceItem<IHero>();
+
+            if (hero == null)
+                return View();
+
+            return View(hero);
         }
 
         public ActionResult SectionHeader()

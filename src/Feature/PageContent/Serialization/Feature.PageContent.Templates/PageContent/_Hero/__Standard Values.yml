@@ -1,0 +1,18 @@
+﻿---
+ID: "d928e290-bd60-4340-ae6a-1f361b681625"
+Parent: "059f8915-49a2-45df-ae13-deb58f60ae4b"
+Template: "059f8915-49a2-45df-ae13-deb58f60ae4b"
+Path: /sitecore/templates/feature/PageContent/_Hero/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T013144Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
