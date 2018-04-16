@@ -5,28 +5,24 @@
 
 @model INavigation
 
-@if (Model != null || Sitecore.Context.PageMode.IsExperienceEditor)
-{
+@if (Model != null && Model.Links != null && Model.Links.Any() || Sitecore.Context.PageMode.IsExperienceEditor)
+    {
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
             <li class="hidden">
                 <a href="#page-top"></a>
             </li>
-            <li>
-                <a class="page-scroll" href="#services">Services</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#about">About</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#team">Team</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#contact">Contact</a>
-            </li>
+            @foreach (INavigationItem navItem in Model.Links)
+            {
+                string cssClass = (!string.IsNullOrEmpty(navItem.Link.Target) ? "page-scroll" : String.Empty);
+
+                <li>
+                    @using (Html.Glass().BeginRenderLink(navItem, x => x.Link, new { @class = cssClass }))
+                    {
+                        Html.Glass().Editable(navItem, x => x.Title);
+                    }
+                </li>
+            }
         </ul>
     </div>
 
