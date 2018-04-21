@@ -11,7 +11,9 @@ SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {80CC9251-6A08-4008-A18F-5EEC17105A7A}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{43BE4B25-7010-400C-9772-6645E0A68128}"
