@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="Constants\Metadata.cs" />
     <Compile Include="Controllers\MetadataController.cs" />
     <Compile Include="Models\IMetadata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
