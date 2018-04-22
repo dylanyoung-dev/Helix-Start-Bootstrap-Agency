@@ -1,4 +1,5 @@
-﻿using Helix.Foundation.ORM.Controllers.Base;
+﻿using Helix.Feature.Services.Models;
+using Helix.Foundation.ORM.Controllers.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,9 @@ namespace Helix.Feature.Services.Controllers
     {
         public ActionResult Listing()
         {
-            return View();
+            IServiceCollection datasourceCollection = this.GetDataSourceItem<IServiceCollection>();
+
+            return View(datasourceCollection);
         }
     }
 }
