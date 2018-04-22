@@ -1,0 +1,32 @@
+﻿---
+ID: "7b309b2f-00e8-4ef6-8473-8ddb32487f19"
+Parent: "9d16821e-302c-4d70-adcf-fdc09acc9cb0"
+Template: "ca8045ec-b8b3-4100-8c5e-0b7ac263ee21"
+Path: "/sitecore/content/agency/Data/heroes/home-page"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Home Page
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T014132Z
+    - ID: "42581a24-37b1-4f71-b6d7-acf88125580e"
+      Hint: Heading
+      Value: It's Nice to Meet You
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "951b21e4-450f-44f8-81dc-233b3fc9c548"
+      Hint: Button
+      Value: |
+        <link text="Tell Me More" linktype="anchor" url="services" anchor="services" title="" class="" />
+    - ID: "c6ec5294-f154-4842-aae4-131aa6bccdbe"
+      Hint: LeadInTitle
+      Value: Welcome To Our Studio

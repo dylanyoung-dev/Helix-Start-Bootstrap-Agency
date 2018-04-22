@@ -1,0 +1,18 @@
+﻿---
+ID: "dc6e7c85-7cef-4a85-b7b9-5d04a2de2744"
+Parent: "80cc9251-6a08-4008-a18f-5eec17105a7a"
+Template: "80cc9251-6a08-4008-a18f-5eec17105a7a"
+Path: /sitecore/templates/feature/services/_ServiceCollection/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180421T140552Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

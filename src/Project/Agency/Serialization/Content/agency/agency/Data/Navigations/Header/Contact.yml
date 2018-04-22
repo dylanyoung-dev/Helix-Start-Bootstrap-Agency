@@ -1,0 +1,29 @@
+﻿---
+ID: "b29c38aa-fd1a-4bec-a408-59e7b66196eb"
+Parent: "2fbe60f6-fc56-48bb-92a8-bbca88619756"
+Template: "4dd9c298-e411-40af-ac5a-fba381482d30"
+Path: /sitecore/content/agency/Data/navigations/header/contact
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Contact
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T153354Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b2c838f2-e270-425d-a06a-9cf94b565ecb"
+      Hint: Title
+      Value: Contact
+    - ID: "e22f0bb7-afcf-4d51-89c6-8df0ed2c9cdf"
+      Hint: Link
+      Value: |
+        <link text="Contact" linktype="anchor" url="contact" anchor="contact" title="" class="" />

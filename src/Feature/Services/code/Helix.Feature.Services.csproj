@@ -114,7 +114,11 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants\Service.cs" />
+    <Compile Include="Constants\ServiceCollection.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Models\IService.cs" />
+    <Compile Include="Models\IServiceCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -127,9 +131,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\ORM\code\Helix.Foundation.ORM.csproj">
       <Project>{a0dc57f8-c1d8-4e38-95ec-22ed9660e817}</Project>

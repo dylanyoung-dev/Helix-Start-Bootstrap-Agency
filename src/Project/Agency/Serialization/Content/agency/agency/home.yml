@@ -14,6 +14,14 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
+          uid="{8AC2F91E-9105-4423-873E-6B5B21206283}"
+          s:ds="{7B309B2F-00E8-4EF6-8473-8DDB32487F19}"
+          s:par="" />
+        <r
+          uid="{560CE4A3-0413-4E04-A077-C558853A7039}"
+          s:ds="{5C4AA0E8-2FAE-49F8-BB50-1D88E65C273C}"
+          s:par="" />
+        <r
           uid="{B661E589-34A2-45FD-966C-664D17235B2C}"
           s:ds="{B3ABBC6E-165C-46AE-B42B-0170798A250D}"
           s:par="" />

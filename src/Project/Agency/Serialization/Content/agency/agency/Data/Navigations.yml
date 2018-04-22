@@ -1,0 +1,22 @@
+﻿---
+ID: "38cd88f0-b4f9-4b45-aad9-ce7fca8c96c1"
+Parent: "9b3b271a-df7c-404f-9ac3-3f16fc402d4d"
+Template: "336fed50-1cb8-445f-9ddb-20323488393a"
+Path: /sitecore/content/agency/Data/navigations
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Navigations
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T153234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

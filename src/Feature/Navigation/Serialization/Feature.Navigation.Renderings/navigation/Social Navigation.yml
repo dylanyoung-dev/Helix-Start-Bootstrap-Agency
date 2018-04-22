@@ -1,0 +1,14 @@
+﻿---
+ID: "25657227-3154-4457-a3e3-e7e70889bf51"
+Parent: "f769b963-732b-4546-a32b-689420d1f3d6"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/feature/navigation/Social Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T204718Z

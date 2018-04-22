@@ -1,0 +1,25 @@
+﻿---
+ID: "3b341d7a-67f3-47c5-9dfd-5d6635a5ad67"
+Parent: "36f2fec9-2617-4376-9b5e-102d8ab25886"
+Template: "4dd9c298-e411-40af-ac5a-fba381482d30"
+Path: "/sitecore/content/agency/Data/navigations/footer/privacy-policy"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Privacy Policy
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180414T153607Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b2c838f2-e270-425d-a06a-9cf94b565ecb"
+      Hint: Title
+      Value: Privacy Policy
