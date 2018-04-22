@@ -1,0 +1,22 @@
+﻿---
+ID: "48b46edc-2ea1-4dca-89c1-02db709de9ac"
+Parent: "9b3b271a-df7c-404f-9ac3-3f16fc402d4d"
+Template: "18533486-a9a3-49c8-8993-4e67c1be5666"
+Path: "/sitecore/content/agency/Data/service-collections"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Service Collections
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180422T165053Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -20,3 +20,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "625a3008-6bc4-4aec-aab5-0198e90dd316"
+      Hint: Title
+      Value: $name

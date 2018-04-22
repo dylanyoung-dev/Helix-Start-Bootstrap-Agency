@@ -1,0 +1,26 @@
+﻿---
+ID: "5c4aa0e8-2fae-49f8-bb50-1d88e65c273c"
+Parent: "b533f59d-9650-4fa5-a6b6-213741aa4f4a"
+Template: "7131c12f-6b37-4ae7-b504-0f5f90c669a2"
+Path: "/sitecore/content/agency/Data/service-collections/home/featured-services"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Featured Services
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180422T165122Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "abc6e742-74a9-41b2-8b1f-bc2e2956cdfc"
+      Hint: Services
+      Type: Treelist
+      Value: "{55E9CF01-C3A8-4611-8204-84873A83103A}"

@@ -1,0 +1,28 @@
+﻿---
+ID: "55e9cf01-c3a8-4611-8204-84873a83103a"
+Parent: "4f9f813f-4921-48c2-aaf2-70c1c2d27cea"
+Template: "e53ba84a-1137-43e7-9d5b-8ea91ad316b5"
+Path: /sitecore/content/agency/home/ecommerce
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Ecommerce
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180422T172633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "625a3008-6bc4-4aec-aab5-0198e90dd316"
+      Hint: Title
+      Value: Ecommerce
+    - ID: "bfef580b-29a9-4272-92b5-bcbd6a2cc40e"
+      Hint: Summary
+      Value: "Get the latest e-commerce service offerings for Sitecore"
