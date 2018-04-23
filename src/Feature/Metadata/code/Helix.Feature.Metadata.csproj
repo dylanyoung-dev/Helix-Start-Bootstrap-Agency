@@ -114,7 +114,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
+    <Compile Include="Constants\Common.cs" />
     <Compile Include="Constants\Metadata.cs" />
     <Compile Include="Controllers\MetadataController.cs" />
     <Compile Include="Models\IMetadata.cs" />
