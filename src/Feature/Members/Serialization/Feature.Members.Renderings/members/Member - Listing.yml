@@ -1,0 +1,24 @@
+﻿---
+ID: "f9e4a3c2-7568-4e0a-90be-292edb5c3cbb"
+Parent: "39530db5-8437-4cd0-9a4c-663206c5f50f"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: "/sitecore/layout/Renderings/feature/members/Member - Listing"
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/feature/members/_MemberCollection
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Listing
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Helix.Feature.Members.Controllers.MemberController, Helix.Feature.Members
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180423T144817Z
