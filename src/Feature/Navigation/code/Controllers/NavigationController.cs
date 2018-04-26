@@ -19,7 +19,9 @@ namespace Helix.Feature.Navigation.Controllers
 
         public ActionResult FooterNavigation()
         {
-            return View();
+            INavigation navigationDatasource = this.GetDataSourceItem<INavigation>();
+
+            return View(navigationDatasource);
         }
     }
 }

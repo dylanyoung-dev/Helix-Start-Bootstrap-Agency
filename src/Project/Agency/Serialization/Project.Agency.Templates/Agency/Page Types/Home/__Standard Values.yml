@@ -121,6 +121,12 @@ SharedFields:
           par=""
           ph="Grid.Container"
           uid="{70921EA4-C959-4C68-BFF9-D7E03644AE91}" />
+        <r
+          ds="{36F2FEC9-2617-4376-9B5E-102D8AB25886}"
+          id="{F65F253A-1C0F-4606-AEE2-7C8ABE4ADBD1}"
+          par=""
+          ph="Navigation.Footer"
+          uid="{BD951785-8EE3-4D76-9DD6-376C769F25B3}" />
       </d>
     </r>
 Languages:
