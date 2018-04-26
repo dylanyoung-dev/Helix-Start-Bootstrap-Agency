@@ -19,7 +19,7 @@
                 <li>
                     @using (Html.Glass().BeginRenderLink(navItem, x => x.Link, new { @class = cssClass }))
                     {
-                        Html.Glass().Editable(navItem, x => x.Title);
+                        @Html.Glass().Editable(navItem, x => x.Title);
                     }
                 </li>
             }

@@ -25,6 +25,12 @@ SharedFields:
           ph="Page.Grid"
           uid="{1F447D9B-81A8-4244-8C1E-1C88A1FE92B4}" />
         <r
+          ds="{2FBE60F6-FC56-48BB-92A8-BBCA88619756}"
+          id="{2C8D21AB-EAB7-4913-9A3A-AFCE9BB8AB9F}"
+          par=""
+          ph="Navigation.Main"
+          uid="{B3F27259-A090-40A0-93E4-761E6C428323}" />
+        <r
           id="{BD3ADC1C-9195-48FD-8835-A9ABB4CF757F}"
           ph="Grid.Header"
           uid="{8AC2F91E-9105-4423-873E-6B5B21206283}" />
