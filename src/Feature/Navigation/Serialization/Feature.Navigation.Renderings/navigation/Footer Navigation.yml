@@ -1,13 +1,13 @@
 ﻿---
-ID: "2c8d21ab-eab7-4913-9a3a-afce9bb8ab9f"
+ID: "f65f253a-1c0f-4606-aee2-7c8abe4adbd1"
 Parent: "f769b963-732b-4546-a32b-689420d1f3d6"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/feature/navigation/Basic Navigation
+Path: /sitecore/layout/Renderings/feature/navigation/Footer Navigation
 DB: master
 SharedFields:
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: BasicNavigation
+  Value: FooterNavigation
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: Helix.Feature.Navigation.Controllers.NavigationController, Helix.Feature.Navigation
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180414T204204Z
+      Value: 20180426T181101Z

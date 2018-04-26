@@ -10,11 +10,16 @@ namespace Helix.Feature.Navigation.Controllers
 {
     public class NavigationController : BaseController
     {
-        public ActionResult BasicNavigation()
+        public ActionResult MainNavigation()
         {
             INavigation navigationDatasource = this.GetDataSourceItem<INavigation>();
 
             return View(navigationDatasource);
+        }
+
+        public ActionResult FooterNavigation()
+        {
+            return View();
         }
     }
 }

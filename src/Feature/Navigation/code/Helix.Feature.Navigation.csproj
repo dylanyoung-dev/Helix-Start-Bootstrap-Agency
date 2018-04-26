@@ -110,7 +110,8 @@
     <Content Include="App_Config\Include\zz.Feature\Feature.Navigation.Serialization.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
-    <Content Include="Views\Navigation\BasicNavigation.cshtml" />
+    <Content Include="Views\Navigation\MainNavigation.cshtml" />
+    <Content Include="Views\Navigation\FooterNavigation.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
