@@ -1,0 +1,29 @@
+﻿---
+ID: "be5b6835-8d37-41e8-a773-87040258d55d"
+Parent: "4f9f813f-4921-48c2-aaf2-70c1c2d27cea"
+Template: "8891402d-6d44-442b-b5be-5df5f2fe3774"
+Path: "/sitecore/content/agency/home/abc-company"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ABC Company
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0eb2de30-2d40-4f3a-a781-8e8efe96d2f0"
+      Hint: Name
+      Value: ABC Company
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180311T171300Z
+    - ID: "370db987-b2b2-4b02-8ed1-abb7ab22fd09"
+      Hint: ThumbImage
+      Value: |
+        <image mediaid="{3A728192-6CB2-4824-B959-66F2DD23D7A9}" />
+    - ID: "616279a1-24f9-43e5-bb4c-5ce2da6269e9"
+      Hint: PrimaryImage
+      Value: |
+        <image mediaid="{756F345A-CEAD-4186-BA92-206D50744AD0}" />

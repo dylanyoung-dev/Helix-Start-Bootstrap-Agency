@@ -14,12 +14,7 @@ namespace Helix.Feature.Projects.Controllers
         {
             IProjectCollection datasource = this.GetDataSourceItem<IProjectCollection>();
 
-            if (datasource != null)
-            {
-                return View(datasource);
-            }
-
-            return View();
+            return View(datasource);
         }
     }
 }
