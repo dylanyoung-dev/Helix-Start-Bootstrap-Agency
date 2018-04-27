@@ -16,18 +16,19 @@ namespace {template.Namespace}
 	using global::Sitecore.Data.Items;
 	using System.CodeDom.Compiler;
 	using System.Collections.Generic;
-    
+    using Glass.Mapper.Sc.Configuration.Attributes;
+    using Glass.Mapper.Sc.Fields;
 
 	/// <summary>Controls the appearance of the inheriting template in site navigation.</summary>
 	///[RepresentsSitecoreTemplateAttribute(""{{{template.Id}}}"", """", ""{ConfigurationName}"")]
     [SitecoreType]
-	public interface I{template.CodeName}Item : {GetBaseInterfaces(template)}
+	public interface I{template.CodeName} : {GetBaseInterfaces(template)}
 	{{
 		{RenderInterfaceFields(template)}
 	}}
 
 	/// <summary>Controls the appearance of the inheriting template in site navigation.</summary>
-	public class {template.CodeName} : IGlassBase, I{template.CodeName}Item
+	public class {template.CodeName} : IGlassBase, I{template.CodeName}
 	{{
 		public {template.CodeName}(Item innerItem) : base(innerItem)
 		{{
@@ -91,13 +92,13 @@ public string GetBaseInterfaces(TemplateCodeGenerationMetadata template)
 
     foreach (var baseTemplate in template.BaseTemplates)
     {
-        bases.Add($"{baseTemplate.Namespace}.I{baseTemplate.CodeName}Item");
+        bases.Add($"{baseTemplate.Namespace}.I{baseTemplate.CodeName}");
     }
 
-    if (bases.Count == 0)
+    if (!bases.Any())
     {
         // IStandardTemplateItem only needed when no other bases exist otherwise irrelevant by transitive inheritance
-        bases.Add("IStandardTemplateItem");
+        bases.Add("IGlassBase");
     }
 
     return string.Join(", ", bases);
@@ -128,7 +129,7 @@ public string RenderFields(TemplateCodeGenerationMetadata template)
 		private {GetFieldType(field)} {GetBackingFieldName(field)};
 		/// <summary>{field.HelpText}</summary>
 		[IndexFieldAttribute(""{GetSearchFieldName(field)}"")]
-		public I{GetFieldType(field)} {field.CodeName} => {GetBackingFieldName(field)} ?? ({GetBackingFieldName(field)} = new {GetFieldType(field)}(new LazyField(() => InnerItem.Fields[""{{{field.Id}}}""], ""{template.Path}"", ""{field.Name}""), GetSearchFieldValue(""{GetSearchFieldName(field)}"")));
+		public {GetFieldType(field)} {field.CodeName} => {GetBackingFieldName(field)} ?? ({GetBackingFieldName(field)} = new {GetFieldType(field)}(new LazyField(() => InnerItem.Fields[""{{{field.Id}}}""], ""{template.Path}"", ""{field.Name}""), GetSearchFieldValue(""{GetSearchFieldName(field)}"")));
 		");
     }
 
