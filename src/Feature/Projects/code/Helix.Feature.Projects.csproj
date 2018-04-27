@@ -114,6 +114,7 @@
     <Content Include="Views\Project\Listing.cshtml" />
     <Content Include="Views\Project\_Project.cshtml" />
     <Content Include="Views\Project\_ProjectModal.cshtml" />
+    <Content Include="CodeGen.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

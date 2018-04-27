@@ -50,6 +50,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Structural", "src\Feature\Structural\code\Helix.Feature.Structural.csproj", "{FDA36D17-6025-41EC-B1C1-9604E0CC672C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{331CB5FA-B0B1-46C9-B816-4399ADD68174}"
+	ProjectSection(SolutionItems) = preProject
+		CodeGen.config = CodeGen.config
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Projects", "src\Feature\Projects\code\Helix.Feature.Projects.csproj", "{99495158-94C5-4397-BADE-3720C5592943}"
 EndProject
