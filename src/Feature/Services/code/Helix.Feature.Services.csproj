@@ -115,12 +115,8 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants\Service.cs" />
-    <Compile Include="Constants\ServiceCollection.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Models\Feature.Services.Model.cs" />
-    <Compile Include="Models\IService.cs" />
-    <Compile Include="Models\IServiceCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
