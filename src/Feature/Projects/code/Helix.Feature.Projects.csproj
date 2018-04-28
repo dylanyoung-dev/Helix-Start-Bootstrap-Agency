@@ -118,8 +118,6 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants\Project.cs" />
-    <Compile Include="Constants\ProjectCollection.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
     <Compile Include="Models\Feature.Projects.Model.cs" />
