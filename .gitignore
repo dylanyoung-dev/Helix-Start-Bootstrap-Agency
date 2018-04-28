@@ -8,5 +8,7 @@
 *.user
 /node_modules
 /Libraries
+!/Libraries/*.csx
+
 **/code/obj
 **/code/bin
