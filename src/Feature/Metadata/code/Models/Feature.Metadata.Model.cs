@@ -11,7 +11,7 @@
 // ReSharper disable All
 
 
-namespace Helix.Feature.Metadata
+namespace Helix.Feature.Metadata.Models
 {
     using System;
 	using System.CodeDom.Compiler;

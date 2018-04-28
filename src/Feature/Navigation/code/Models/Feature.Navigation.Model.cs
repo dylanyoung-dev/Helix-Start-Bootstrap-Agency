@@ -11,7 +11,7 @@
 // ReSharper disable All
 
 
-namespace Helix.Feature.Navigation
+namespace Helix.Feature.Navigation.Models
 {
     using System;
 	using System.CodeDom.Compiler;
@@ -46,7 +46,7 @@ namespace Helix.Feature.Navigation
 
 }
 
-namespace Helix.Feature.Navigation
+namespace Helix.Feature.Navigation.Models
 {
     using System;
 	using System.CodeDom.Compiler;

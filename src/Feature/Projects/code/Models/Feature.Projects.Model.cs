@@ -11,7 +11,7 @@
 // ReSharper disable All
 
 
-namespace Helix.Feature.Projects
+namespace Helix.Feature.Projects.Models
 {
     using System;
 	using System.CodeDom.Compiler;
@@ -54,7 +54,7 @@ namespace Helix.Feature.Projects
 
 }
 
-namespace Helix.Feature.Projects
+namespace Helix.Feature.Projects.Models
 {
     using System;
 	using System.CodeDom.Compiler;

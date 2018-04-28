@@ -11,7 +11,7 @@
 // ReSharper disable All
 
 
-namespace Helix.Feature.Structural
+namespace Helix.Feature.Structural.Models
 {
     using System;
 	using System.CodeDom.Compiler;
