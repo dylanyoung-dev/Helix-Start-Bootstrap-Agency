@@ -104,9 +104,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Members", "sr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeGen", "CodeGen", "{48D3055F-265C-435F-BF8F-CEE46BA1FF8E}"
 	ProjectSection(SolutionItems) = preProject
-		Libraries\Tools\Leprechaun-1.0.0\Scripts\Constants.csx = Libraries\Tools\Leprechaun-1.0.0\Scripts\Constants.csx
-		Libraries\Tools\Leprechaun-1.0.0\Scripts\Diagnostics.csx = Libraries\Tools\Leprechaun-1.0.0\Scripts\Diagnostics.csx
-		Libraries\Tools\Leprechaun-1.0.0\Scripts\GlassMapper.csx = Libraries\Tools\Leprechaun-1.0.0\Scripts\GlassMapper.csx
+		Tools\Leprechaun-1.0.0\Scripts\Constants.csx = Tools\Leprechaun-1.0.0\Scripts\Constants.csx
+		Tools\Leprechaun-1.0.0\Scripts\Diagnostics.csx = Tools\Leprechaun-1.0.0\Scripts\Diagnostics.csx
+		Tools\Leprechaun-1.0.0\Scripts\GlassMapper.csx = Tools\Leprechaun-1.0.0\Scripts\GlassMapper.csx
 	EndProjectSection
 EndProject
 Global
