@@ -116,12 +116,9 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants\Navigation.cs" />
-    <Compile Include="Constants\NavigationItem.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Models\Feature.Navigation.Model.cs" />
     <Compile Include="Models\INavigation.cs" />
-    <Compile Include="Models\INavigationItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
