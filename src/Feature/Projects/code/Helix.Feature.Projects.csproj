@@ -122,9 +122,7 @@
     <Compile Include="Constants\ProjectCollection.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
-    <Compile Include="Feature.Projects.Model.cs" />
-    <Compile Include="Models\Interface\IProject.cs" />
-    <Compile Include="Models\Interface\IProjectCollection.cs" />
+    <Compile Include="Models\Feature.Projects.Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

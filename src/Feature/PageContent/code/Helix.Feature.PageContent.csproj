@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zz.Feature\Feature.PageContent.Serialization.config" />
+    <Content Include="CodeGen.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <Content Include="Views\PageContent\SectionHeader.cshtml" />
