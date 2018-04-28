@@ -38,7 +38,7 @@ gulp.task('_Copy-Sitecore-Dlls', function () {
 
 // Run Leprechaun to Code Generate Glass Mapper Files
 gulp.task('_Code-Generation', function (cb) {
-    exec('.\\Libraries\\Tools\\Leprechaun-1.0.0\\Leprechaun.console.exe /c .\\src\\Leprechaun.config', function (err, stdout, stderr) {
+    exec('.\\Tools\\Leprechaun-1.0.0\\Leprechaun.console.exe /c .\\src\\Leprechaun.config', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
         cb(err);
