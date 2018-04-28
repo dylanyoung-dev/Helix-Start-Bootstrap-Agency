@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zz.Feature\Feature.Navigation.Serialization.config" />
+    <Content Include="CodeGen.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <Content Include="Views\Navigation\MainNavigation.cshtml" />
@@ -118,6 +119,7 @@
     <Compile Include="Constants\Navigation.cs" />
     <Compile Include="Constants\NavigationItem.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Models\Feature.Navigation.Model.cs" />
     <Compile Include="Models\INavigation.cs" />
     <Compile Include="Models\INavigationItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

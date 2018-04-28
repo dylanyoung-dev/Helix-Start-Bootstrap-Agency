@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zz.Feature\Feature.Metadata.Serialization.config" />
+    <Content Include="CodeGen.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <Content Include="Views\Metadata\RenderMetadata.cshtml" />
@@ -117,6 +118,7 @@
     <Compile Include="Constants\Common.cs" />
     <Compile Include="Constants\Metadata.cs" />
     <Compile Include="Controllers\MetadataController.cs" />
+    <Compile Include="Models\Feature.Metadata.Model.cs" />
     <Compile Include="Models\IMetadata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

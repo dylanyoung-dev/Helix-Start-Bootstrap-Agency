@@ -116,11 +116,13 @@
     <Content Include="Views\Structural\Header.cshtml" />
     <Content Include="Views\Grids\4x4x4.cshtml" />
     <Content Include="Views\Grids\6x6.cshtml" />
+    <Content Include="CodeGen.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants\Parameters\GridSettings.cs" />
     <Compile Include="Controllers\StructuralController.cs" />
+    <Compile Include="Models\Feature.Structural.Model.cs" />
     <Compile Include="Models\Parameters\IGridSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zz.Feature\Feature.Members.Serialization.config" />
+    <Content Include="CodeGen.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <Content Include="Views\Members\Listing.cshtml" />
@@ -117,6 +118,7 @@
     <Compile Include="Constants\Member.cs" />
     <Compile Include="Constants\MemberCollection.cs" />
     <Compile Include="Controllers\MembersController.cs" />
+    <Compile Include="Models\Feature.Members.Model.cs" />
     <Compile Include="Models\IMember.cs" />
     <Compile Include="Models\IMemberCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

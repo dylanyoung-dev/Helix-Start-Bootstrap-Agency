@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zz.Feature\Feature.Services.Serialization.config" />
+    <Content Include="CodeGen.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <Content Include="Views\Services\Listing.cshtml" />
@@ -117,6 +118,7 @@
     <Compile Include="Constants\Service.cs" />
     <Compile Include="Constants\ServiceCollection.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Models\Feature.Services.Model.cs" />
     <Compile Include="Models\IService.cs" />
     <Compile Include="Models\IServiceCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

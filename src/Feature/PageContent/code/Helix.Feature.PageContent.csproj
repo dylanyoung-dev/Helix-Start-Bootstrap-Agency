@@ -119,6 +119,7 @@
     <Compile Include="Constants\Hero.cs" />
     <Compile Include="Constants\SectionHeader.cs" />
     <Compile Include="Controllers\PageContentController.cs" />
+    <Compile Include="Models\Feature.PageContent.Model.cs" />
     <Compile Include="Models\IHero.cs" />
     <Compile Include="Models\ISectionHeader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
