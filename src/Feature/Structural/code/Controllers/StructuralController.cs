@@ -1,4 +1,4 @@
-﻿using Helix.Feature.Structural.Models.Parameters;
+﻿using Helix.Feature.Structural.Models;
 using Helix.Foundation.ORM.Controllers.Base;
 using System;
 using System.Collections.Generic;
@@ -13,14 +13,14 @@ namespace Helix.Feature.Structural.Controllers
 
         public ActionResult Section()
         {
-            IGridSettings settings = this.GetRenderingParameters<IGridSettings>();
+            IParametersTemplateGridSettings settings = this.GetRenderingParameters<IParametersTemplateGridSettings>();
 
             return View(settings);
         }
 
         public ActionResult Container()
         {
-            IGridSettings settings = this.GetRenderingParameters<IGridSettings>();
+            IParametersTemplateGridSettings settings = this.GetRenderingParameters<IParametersTemplateGridSettings>();
 
             return View(settings);
         }

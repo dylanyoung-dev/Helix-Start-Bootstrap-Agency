@@ -1,0 +1,26 @@
+﻿---
+ID: "3c92dc23-fd4c-4870-97d5-766b3787b4f8"
+Parent: "015daf42-b9e2-4ca2-98bc-fe74787db46b"
+Template: "df00249e-da8c-4d45-865a-0d10f1f6d9c3"
+Path: "/sitecore/content/agency/Data/member-collections/home/featured-members"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Featured Members
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180423T150419Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "94196fce-a936-41d3-8a68-e1280a2caa3e"
+      Hint: Members
+      Type: Treelist
+      Value: "{8C7302B0-936D-456B-9981-7D074A23E4C9}"

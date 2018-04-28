@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace Helix.Feature.Navigation.Models
 {
-    [SitecoreType(TemplateId = Constants.Navigation.TemplateIdString)]
-    public interface INavigation
+    public partial interface INavigation
     {
         [SitecoreChildren]
         IEnumerable<INavigationItem> Links { get; set; }

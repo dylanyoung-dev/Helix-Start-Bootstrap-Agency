@@ -11,6 +11,7 @@ SharedFields:
   Value: |
     {8891402D-6D44-442B-B5BE-5DF5F2FE3774}
     {E53BA84A-1137-43E7-9D5B-8EA91AD316B5}
+    {F1C5E31A-E9D8-4183-A360-1F426668D718}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -23,6 +24,12 @@ SharedFields:
           id="{875F1D1F-ADF3-4624-A674-9615F5229907}"
           ph="Page.Grid"
           uid="{1F447D9B-81A8-4244-8C1E-1C88A1FE92B4}" />
+        <r
+          ds="{2FBE60F6-FC56-48BB-92A8-BBCA88619756}"
+          id="{2C8D21AB-EAB7-4913-9A3A-AFCE9BB8AB9F}"
+          par=""
+          ph="Navigation.Main"
+          uid="{B3F27259-A090-40A0-93E4-761E6C428323}" />
         <r
           id="{BD3ADC1C-9195-48FD-8835-A9ABB4CF757F}"
           ph="Grid.Header"
@@ -114,6 +121,12 @@ SharedFields:
           par=""
           ph="Grid.Container"
           uid="{70921EA4-C959-4C68-BFF9-D7E03644AE91}" />
+        <r
+          ds="{36F2FEC9-2617-4376-9B5E-102D8AB25886}"
+          id="{F65F253A-1C0F-4606-AEE2-7C8ABE4ADBD1}"
+          par=""
+          ph="Navigation.Footer"
+          uid="{BD951785-8EE3-4D76-9DD6-376C769F25B3}" />
       </d>
     </r>
 Languages:

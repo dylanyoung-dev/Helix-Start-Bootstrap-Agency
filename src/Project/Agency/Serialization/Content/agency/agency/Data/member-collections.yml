@@ -1,0 +1,22 @@
+﻿---
+ID: "7ccfdea5-a1a0-4391-86a7-1f230c7d4af5"
+Parent: "9b3b271a-df7c-404f-9ac3-3f16fc402d4d"
+Template: "71f88a8c-eae8-48ed-b320-074701019cd2"
+Path: "/sitecore/content/agency/Data/member-collections"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Member Collections
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180423T150401Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

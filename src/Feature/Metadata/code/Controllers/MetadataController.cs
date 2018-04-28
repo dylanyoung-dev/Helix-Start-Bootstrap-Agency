@@ -12,7 +12,7 @@ namespace Helix.Feature.Metadata.Controllers
     {
         public ActionResult RenderMetadata()
         {
-            IMetadata meta = SitecoreContext.GetCurrentItem<IMetadata>();
+            IMetaTags meta = SitecoreContext.GetCurrentItem<IMetaTags>();
 
             if (meta == null)
                 return new EmptyResult();

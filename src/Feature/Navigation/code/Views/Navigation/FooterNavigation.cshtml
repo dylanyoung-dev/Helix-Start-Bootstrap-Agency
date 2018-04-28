@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@using Helix.Feature.Navigation.Models
+@using Glass.Mapper.Sc.Web.Mvc
+
+@model INavigation
+
+@if (Model != null && Model.Links != null && Model.Links.Any() || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <ul class="list-inline quicklinks">
+        @foreach (INavigationItem link in Model.Links)
+        {
+            <li>
+                @using (Html.Glass().BeginRenderLink(link, x => x.Link))
+                {
+                    @Html.Glass().Editable(link, x => x.Title)
+                }
+            </li>
+        }
+    </ul>
+}
